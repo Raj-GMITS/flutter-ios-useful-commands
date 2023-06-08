@@ -1,3 +1,6 @@
+
+Make sure to run this command in the ios directory of your Flutter project.
+
 ## Flutter iOS One-Liner Command with pod deintegrate:
 
 This command is used for the first-time setup of iOS and also when encountering errors like unresolved modules or remnants of old pods. It performs a fresh re-installation of pods by removing existing pods, the `.xcworkspace` file, and the `Podfile.lock` file. 
@@ -29,8 +32,6 @@ Explanation:
 6. `flutter pub get`: Retrieves the dependencies listed in the `pubspec.yaml` file for the Flutter project.
 
 7. `pod install`: Installs the dependencies specified in the `Podfile` using CocoaPods.
-
-Make sure to run this command in the ios directory of your Flutter project.
 
 Overall, these commands are often used in a specific sequence to clean up any existing build artifacts, remove dependencies managed by CocoaPods, update the dependencies, and re-install them for an iOS Flutter project.
 
